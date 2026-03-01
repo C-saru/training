@@ -1,0 +1,19 @@
+<record id="view_zaza_caramelo_tree" model="ir.ui.view">
+    <field name="name">zaza.caramelo.tree</field>
+    <field name="model">zaza.caramelo</field>
+    <field name="arch" type="xml">
+        <tree>
+            <field name="name"/>
+            <field name="cantidad"/>
+            <field name="precio"/>
+        </tree>
+    </field>
+</record>
+
+<record id="accion_caramelo" model="ir.actions.act_window">
+    <field name='name'>Caramelos</field>
+    <field name='res_model'>zaza.caramelo</field>
+<record/>
+
+<menuitem id="menu_zaza_root" name="Zaza Puesto"/>
+<menuitem id="menu_zaza_caramelo" name="Inventario" parent="menu_zaza_root" action="accion_caramelo"/>

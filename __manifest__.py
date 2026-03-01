@@ -1,9 +1,9 @@
 {
     'name': 'Nombre del Modulo',
     'version': '1.0',
-    'depends': ['base'], # Modulos de los que depende
+    'depends': ['base'], 
     'data': [
-        'views/mi_vista.xml', # Archivos XML
+        'views/caramelo.xml', 
     ],
     'installable': True,
     'application': True,
