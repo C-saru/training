@@ -1,5 +1,5 @@
 {
-    'name': 'Nombre del Modulo',
+    'name': 'zaza',
     'version': '1.0',
     'depends': ['base'], 
     'data': [

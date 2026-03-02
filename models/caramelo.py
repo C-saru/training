@@ -6,5 +6,5 @@ class caramelazaa(models.Model):
 
     name = fields.Char(string = "caramelo de 1 bolivar",required = True )
     descripcion = fields.Char(string = 'caramelo baratongo')
-    disponible = fields.boolean(string = 'disponible',default = True)
-    cantidad = fields.float(string= 'cantidad de caramelos',default = 1.0)
+    disponible = fields.Boolean(string = 'disponible',default = True)
+    cantidad = fields.Float(string= 'cantidad de caramelos',default = 1.0)
